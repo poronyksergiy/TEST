@@ -1,0 +1,162 @@
+html, body {
+    height: 100px;
+    margin: 0;
+    padding: 0;
+
+}
+.header{
+    border-bottom: 0px solid #cccccc;
+    padding: 0px;
+    text-align: center;
+    background-color: dimgrey;
+
+}
+.header_title{
+    margin: 5px;
+    padding: 20px 15px;
+    display: inline-block;
+}
+.contacts{
+    float: right;
+    padding: 35px 35px;
+    display: inline-block;
+    margin-bottom: inherit;
+}
+.nav {
+    margin: 0px;
+    padding: 0;
+    background-color: palevioletred;
+    height: 70px;
+
+}
+
+.logo{
+    float: left;
+    margin: 5px;
+}
+.about { float: right;
+    margin: 20px;
+
+
+}
+ .log{
+    display: inline-block;
+}
+.container {
+    width: 80%;
+    height: 440px;
+    margin: 0 10%;
+    background-color: beige;
+}
+
+.aside{
+    float: left;
+    width: 65%;
+    line-height: 20px;
+    background-color: darkolivegreen;
+    margin-bottom: 10px;
+}
+h2{
+    float: left;
+    margin: 20px 30px;
+}
+.date {
+    float: right;
+    margin: 20px;
+}
+ .title_post {
+     background-color: gold;
+     margin: 5px;
+     height: 54px;
+ }
+
+.image_text {
+    clear: both;
+}
+.image {
+    float: left;
+    margin: 40px;
+}
+ .textbox{
+     float: right;
+     margin: 60px;
+     text-align: center;
+     font-size: 15pt;
+ }
+
+
+.navigation {
+    float: right;
+    width: calc(35% - 15px);
+    background: #cccccc;
+    height: 285px;
+}
+
+
+.text {
+    text-align: center;
+}
+.item {margin: 15%; text-align: center;
+
+}
+.text_nav{
+    margin: 45%;
+    text-align: center;
+}
+
+.tree_bloks{
+    clear: both;
+    margin: 10px;
+    background-color: gray;
+    height: 65px;
+
+}
+.bloks{
+    width: 31.5%;
+    float: left;
+    background-color:hotpink;
+    margin: 5px;
+}
+
+.title_footer{
+    height: 70px;
+    background-color: gold;
+
+}
+h3 {
+    width: 33%;
+    float: right;
+    text-align: center;
+}
+input{
+     width: 33%;
+     float: right;
+     margin: 21px;
+ }
+
+.footer {
+    margin: 0;
+    padding: 0;
+    height: 20px;
+    background-color: lightslategrey;
+    height: 65px;
+}
+
+p1{
+    width: 33%;
+    float: left;
+    text-align: center;
+    margin-top: 25px;
+}
+p2{
+    width: 33%;
+    float: left;
+    text-align: center;
+    margin-top: 25px;
+}
+p3{
+     width: 33%;
+     float: left;
+     text-align: center;
+    margin-top: 25px;
+ }

@@ -1,0 +1,32 @@
+/* test comments  */
+
+
+.test p:nth-child(1) {
+}
+
+html, body {height: 100px;
+  margin: 0;
+  padding: 0;
+
+}
+.header{border-bottom: 1px solid #cccccc;
+  padding: 15px;
+  text-align: center;
+
+}
+.header_title{ margin: 0;
+  padding: 5px 15px;
+  display: inline-block;
+  background-color: red;
+}
+.sidebar{float: left;
+  width: 30%;
+  background: #cccccc;
+}
+.main{float: right;
+  width: calc(70% - 15px);
+  background: #cccccc; }
+
+.container{width: 100%;
+  float: right}
+.footer {float: left; width: 100%}

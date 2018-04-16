@@ -1,0 +1,69 @@
+.test {
+    transition: 1s;
+    width: 100px;
+    height: 100px;
+    background-color: #1b5288;
+    margin: auto;
+}
+.test:hover {
+    transform: rotate(180deg);
+
+}
+
+.test1 {
+    transition: width 1s;
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    margin: auto;
+}
+.test1:hover {
+    width: 200px;
+
+}
+
+@keyframes widthBlock {
+0%{
+transform: rotate(0);
+    background-color: #2da89b;
+border-radius: 0px}
+
+    50%{
+        transform: rotate(180deg);
+        background-color: #2da89b;
+        border-radius: 50px}
+}
+
+.test2 {
+    transition: width 1s;
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    margin: auto;
+    animation-name: widthBlock;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.test2:hover {
+    width: 200px;}
+
+
+.sidebar {
+    margin-right: 15px;
+    float: left;
+    width: 30%;
+    background: #ccc;
+}
+
+@media screen (maxwidth: 375px){
+.sidebar{
+    float: none;
+width: 100%;
+margin-bottom: 15px;
+}
+.main{
+    float: none;
+    width: 100%;
+}
+}
